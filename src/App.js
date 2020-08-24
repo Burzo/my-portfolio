@@ -44,16 +44,36 @@ function App() {
                     Front-end
                   </h3>
                   <p class="feature-box__text u-margin-bottom-small u-center">
-                    <img className="icon" alt="html" src="/images/html.svg" />
-                    <img className="icon" alt="css" src="/images/css.png" />
-                    <img className="icon" alt="sass" src="/images/sass.svg" />
-                    <img className="icon" alt="js" src="/images/js.png" />
+                    <img
+                      className="icon"
+                      alt="html"
+                      src="https://burzo.github.io/my-portfolio/images/html.svg"
+                    />
+                    <img
+                      className="icon"
+                      alt="css"
+                      src="https://burzo.github.io/my-portfolio/images/css.png"
+                    />
+                    <img
+                      className="icon"
+                      alt="sass"
+                      src="https://burzo.github.io/my-portfolio/images/sass.svg"
+                    />
+                    <img
+                      className="icon"
+                      alt="js"
+                      src="https://burzo.github.io/my-portfolio/images/js.png"
+                    />
                     <img
                       className="icon"
                       alt="reactjs"
-                      src="/images/reactjs.png"
+                      src="https://burzo.github.io/my-portfolio/images/reactjs.png"
                     />
-                    <img className="icon" alt="redux" src="/images/redux.svg" />
+                    <img
+                      className="icon"
+                      alt="redux"
+                      src="https://burzo.github.io/my-portfolio/images/redux.svg"
+                    />
                   </p>
                   <p class="feature-box__text">
                     I've been mostly working with React and React-native coupled
@@ -75,23 +95,23 @@ function App() {
                     <img
                       className="icon"
                       alt="nodejs"
-                      src="/images/nodejs.png"
+                      src="https://burzo.github.io/my-portfolio/images/nodejs.png"
                     />
                     <img
                       className="icon"
                       alt="python"
-                      src="/images/python.png"
+                      src="https://burzo.github.io/my-portfolio/images/python.png"
                     />
                     <img
                       style={{ height: '3.2rem' }}
                       className="icon"
                       alt="django"
-                      src="/images/django.svg"
+                      src="https://burzo.github.io/my-portfolio/images/django.svg"
                     />
                     <img
                       className="icon"
                       alt="postgresql"
-                      src="/images/postgresql.png"
+                      src="https://burzo.github.io/my-portfolio/images/postgresql.png"
                     />
                   </p>
                   <p class="feature-box__text">
@@ -108,16 +128,20 @@ function App() {
                   <i class="feature-box__icon icon-basic-compass"></i>
                   <h3 class="heading-tertiary u-margin-bottom-small">Extra</h3>
                   <p class="feature-box__text u-margin-bottom-small u-center">
-                    <img className="icon" alt="git" src="/images/git.png" />
+                    <img
+                      className="icon"
+                      alt="git"
+                      src="https://burzo.github.io/my-portfolio/images/git.png"
+                    />
                     <img
                       className="icon"
                       alt="gitlab"
-                      src="/images/gitlab.png"
+                      src="https://burzo.github.io/my-portfolio/images/gitlab.png"
                     />
                     <img
                       className="icon"
                       alt="github"
-                      src="/images/github.svg"
+                      src="https://burzo.github.io/my-portfolio/images/github.svg"
                     />
                   </p>
                   <p class="feature-box__text">
