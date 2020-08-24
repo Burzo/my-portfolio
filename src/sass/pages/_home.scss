@@ -1,11 +1,17 @@
 .section-about {
   background-color: $color-grey-light-1;
-  padding: 25rem 0;
+  padding: 20rem 0;
   margin-top: -20vh;
+  padding-bottom: 3rem;
 
   @include respond(tab-port) {
     padding: 20rem 0;
+    padding-bottom: 1rem;
   }
+}
+
+.section-projects {
+  background-color: $color-grey-light-1;
 }
 
 // .section-features {
@@ -28,6 +34,18 @@
 //     padding: 10rem 0;
 //   }
 // }
+
+.section-contact {
+  background-color: $color-grey-light-1;
+  padding: 20rem 0;
+  margin-top: -20vh;
+  padding-bottom: 3rem;
+
+  @include respond(tab-port) {
+    padding: 20rem 0;
+    padding-bottom: 1rem;
+  }
+}
 
 .section-tours {
   background-color: $color-grey-light-1;
