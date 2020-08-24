@@ -3,10 +3,10 @@
   perspective: 150rem;
   -moz-perspective: 150rem;
   position: relative;
-  height: 24rem;
+  height: 33rem;
 
   &__side {
-    height: 27rem;
+    height: 33rem;
     transition: all 0.8s ease;
     position: absolute;
     top: 0;
@@ -62,7 +62,7 @@
   // FRONT SIDE STYLING
   &__picture {
     background-size: cover;
-    height: 26rem;
+    height: 32rem;
     background-blend-mode: screen;
     // -webkit-clip-path: polygon(0 0, 100% 0, 100% 85%, 0 100%);
     // clip-path: polygon(0 0, 100% 0, 100% 85%, 0 100%);
@@ -76,10 +76,16 @@
           rgba($color-grey-light-2, 0.4)
         ),
         url(https://burzo.github.io/my-portfolio/images/joan_portal_1.png);
+      background-size: contain;
+      background-repeat: no-repeat;
+      background-position: center;
     }
 
     &--2 {
       background-image: url(https://burzo.github.io/my-portfolio/images/fetchie_1_censored.jpg);
+      background-size: contain;
+      background-repeat: no-repeat;
+      background-position: center;
     }
 
     // &--3 {
@@ -178,13 +184,13 @@
   }
 
   &__title {
-    font-size: 2rem;
+    font-size: 2.3rem;
     text-transform: uppercase;
   }
 
   &__text {
-    font-size: 1.2rem;
-    font-weight: 100;
+    font-size: 1.6rem;
+    font-weight: 400;
   }
 
   // @include respond(tab-port) {

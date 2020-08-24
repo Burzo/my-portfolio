@@ -10,7 +10,7 @@ function App() {
       </div> */}
       <header class="header">
         <div class="header__logo-box">
-          <a href="/">
+          <a href="https://burzo.github.io/my-portfolio/">
             <span class="heading-primary header__logo">
               <span className="header__logo--text">MD</span>
             </span>
@@ -25,7 +25,13 @@ function App() {
             </span>
           </h1>
 
-          <a href="#section-projects" class="btn btn--white btn--animated">
+          <a
+            onClick={(e) => {
+              const anchor = document.querySelector('#section-projects')
+              anchor.scrollIntoView({ behavior: 'smooth' })
+            }}
+            class="btn btn--white btn--animated"
+          >
             Check out my work
           </a>
         </div>
@@ -155,7 +161,7 @@ function App() {
             </div>
           </div>
         </section>
-        <section className="section-projects">
+        <section id="section-projects" className="section-projects">
           <div class="u-center-text u-margin-bottom-big">
             <h2 class="heading-secondary u-center">
               <span>&lt; My experience & biggest projects&gt;</span>
@@ -234,10 +240,10 @@ function App() {
                       <div class="card__price-box">
                         <p class="card__title">React</p>
                         <p class="card__text">
-                          An overview tool meant to make life easier for me and
-                          my team. This project started as a hobby but later on
-                          turned out to become the most used diagnostics tool in
-                          the company.
+                          An internal overview tool meant to make life easier
+                          for me and my team. This project started as a hobby
+                          but later on turned out to become the most used
+                          diagnostics tool in the company.
                           <br />
                           <br />
                           Due to lots and lots of different state changes and a
@@ -245,10 +251,6 @@ function App() {
                           required information, I grew a deeper understanding of
                           state management with React Redux and Redux Thunk and
                           also dove deeper into network and request handling.
-                          <br />
-                          <br />
-                          Feel free to contact me if you're interested in more
-                          information :)
                         </p>
                       </div>
                     </div>
