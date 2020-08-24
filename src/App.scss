@@ -1,0 +1,86 @@
+@import './sass/abstracts/mixins';
+@import './sass/abstracts/variables';
+
+@import './sass/base/animations';
+@import './sass/base/base';
+@import './sass/base/typography';
+@import './sass/base/utilities';
+
+@import './sass/components/button';
+@import './sass/components/card';
+@import './sass/components/composition';
+@import './sass/components/feature-box';
+@import './sass/components/form';
+@import './sass/components/popup';
+@import './sass/components/story';
+
+@import './sass/layout/footer';
+@import './sass/layout/grid';
+@import './sass/layout/header';
+@import './sass/layout/navigation';
+
+@import './sass/pages/home';
+
+@font-face {
+  font-family: Karla;
+  src: url('/fonts/Karla-Regular.ttf');
+}
+
+*,
+*::after,
+*::before {
+  margin: 0;
+  padding: 0;
+  box-sizing: inherit;
+}
+
+@mixin respond($breakpoint) {
+  @if $breakpoint == phone {
+    @media only screen and (max-width: 37.5em) {
+      @content;
+    } //600px
+  }
+  @if $breakpoint == tab-port {
+    @media only screen and (max-width: 56.25em) {
+      @content;
+    } //900px
+  }
+  @if $breakpoint == tab-land {
+    @media only screen and (max-width: 75em) {
+      @content;
+    } //1200px
+  }
+  @if $breakpoint == big-desktop {
+    @media only screen and (min-width: 112.5em) {
+      @content;
+    } //1800
+  }
+}
+
+html {
+  // This defines what 1rem is
+  font-size: 62.5%; //1 rem = 10px; 10px/16px = 62.5%
+
+  @include respond(tab-land) {
+    // width < 1200?
+    font-size: 56.25%; //1 rem = 9px, 9/16 = 50%
+  }
+
+  @include respond(tab-port) {
+    // width < 900?
+    font-size: 50%; //1 rem = 8px, 8/16 = 50%
+  }
+
+  @include respond(big-desktop) {
+    font-size: 75%; //1rem = 12, 12/16
+  }
+}
+
+body {
+  box-sizing: border-box;
+  padding: 3rem;
+
+  @include respond(tab-port) {
+    padding: 0;
+  }
+}
