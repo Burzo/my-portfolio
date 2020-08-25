@@ -45,7 +45,7 @@ function App() {
             <div class="row">
               <div class="col-1-of-3">
                 <div class="feature-box">
-                  <i class="feature-box__icon icon-basic-world"></i>
+                  {/* <i class="feature-box__icon icon-basic-world"></i> */}
                   <h3 class="heading-tertiary u-margin-bottom-small">
                     Front-end
                   </h3>
@@ -93,7 +93,7 @@ function App() {
 
               <div class="col-1-of-3">
                 <div class="feature-box">
-                  <i class="feature-box__icon icon-basic-compass"></i>
+                  {/* <i class="feature-box__icon icon-basic-compass"></i> */}
                   <h3 class="heading-tertiary u-margin-bottom-small">
                     Back-end
                   </h3>
@@ -131,7 +131,7 @@ function App() {
               </div>
               <div class="col-1-of-3">
                 <div class="feature-box">
-                  <i class="feature-box__icon icon-basic-compass"></i>
+                  {/* <i class="feature-box__icon icon-basic-compass"></i> */}
                   <h3 class="heading-tertiary u-margin-bottom-small">Extra</h3>
                   <p class="feature-box__text u-margin-bottom-small u-center">
                     <img
