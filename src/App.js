@@ -21,7 +21,7 @@ function App() {
             <span class="heading-primary--main">Miha Drofenik</span>
             <span class="heading-primary--sub">
               I'm a web developer from Slovenia focused on crafting clean &
-              user-friendly experiences.
+              user-friendly experiences
             </span>
           </h1>
 
@@ -262,7 +262,7 @@ function App() {
               <div class="col-1-of-2">
                 <div class="card">
                   <div class="card__side card__side--front">
-                    <div class="card__picture card__picture--1">&nbsp;</div>
+                    <div class="card__picture card__picture--3">&nbsp;</div>
                     <h4 class="card__heading">
                       <span class="card__heading-span card__heading-span--1">
                         Trello integration
